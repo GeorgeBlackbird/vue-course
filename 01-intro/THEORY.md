@@ -99,7 +99,7 @@ export default {
 
 Открой терминал и введи 👇
 
-```bash
+``` bash
 vue create task-manager
 ```
 
