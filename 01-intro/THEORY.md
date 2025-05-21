@@ -104,6 +104,7 @@ Vue CLI задаст тебе вопросы. Выбери:
 
 ```bash
 cd task-manager
+npm install
 npm run serve
 ```
 
