@@ -146,11 +146,10 @@ vue --version
 ![](../images/00/formatter.png)
 
 > ❗Главное, чтобы тебе было удобно, можешь полистать настройки и сделать так, как нравиться тебе (например настроить плавный курсор)
-
+---
 <br>
 
-### Настройка Markdown Preview
-
+## Настройка Markdown Preview
 <p align=center>
     <img src="https://skillicons.dev/icons?i=markdown" />
 </p>
