@@ -56,8 +56,22 @@ export default {
 Подключает `<input>` к переменной. При вводе данные автоматически обновляются:
 
 ```vue
-<input v-model="newTask" placeholder="Введите задачу" />
-<p>Вы ввели: {{ newTask }}</p>
+<template>
+  <div>
+    <input v-model="newTask" placeholder="Введите задачу" />
+    <p>Вы ввели: {{ newTask }}</p>
+  </div>
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+      newTask: ''
+    }
+  }
+}
+</script>
 ```
 
 ---
@@ -67,8 +81,22 @@ export default {
 Показывает элемент только если условие истинно:
 
 ```vue
-<p v-if="tasks.length > 0">У вас есть задачи!</p>
-<p v-else>Список задач пуст.</p>
+<template>
+  <div>
+    <p v-if="tasks.length > 0">У вас есть задачи!</p>
+    <p v-else>Список задач пуст.</p>
+  </div>
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+      tasks: []
+    }
+  }
+}
+</script>
 ```
 
 ---
@@ -88,11 +116,26 @@ export default {
 Происходит по массиву и создаёт элементы:
 
 ```vue
-<ul>
-  <li v-for="task in tasks" :key="task.id">
-    {{ task.title }}
-  </li>
-</ul>
+<template>
+  <ul>
+    <li v-for="task in tasks" :key="task.id">
+      {{ task.title }}
+    </li>
+  </ul>
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+      tasks: [
+        { id: 1, title: 'Купить хлеб' },
+        { id: 2, title: 'Позвонить другу' }
+      ]
+    }
+  }
+}
+</script>
 ```
 
 ---
