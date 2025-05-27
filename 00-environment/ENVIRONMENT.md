@@ -273,6 +273,6 @@ npm (Node Package Manager) — это менеджер пакетов для Nod
 
 <div align=center style="display:flex;justify-content:center;"> 
 
-**[⬅️ Назад](../00-environment/) | [Вперед ➡️](../00-environment/)** 
+**[⬅️ Назад]() | [Вперед ➡️](../01-intro/THEORY.md)** 
 
 </div>
