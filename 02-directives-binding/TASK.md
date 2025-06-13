@@ -106,6 +106,6 @@
 
 <div align=center style="display:flex;justify-content:center;"> 
 
-**[⬅️ Назад](./PRACTICE.md) | [Вперед ➡️]()** 
+**[⬅️ Назад](./PRACTICE.md) | [Вперед ➡️](../03-conditional-lists/THEORY.md)** 
 
 </div>
