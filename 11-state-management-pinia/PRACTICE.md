@@ -293,15 +293,15 @@
 ## 📝 Итоговый код (ключевые моменты):
 
 * **`src/main.js`**: `app.use(createPinia())`
-<br>
+
 * **`src/stores/productStore.js`**: содержит `state` с массивом `books`.
-<br>
+
 * **`src/stores/cartStore.js`**: содержит `state` с `itemIds`, `getters` для `count`, `detailedItems`, `totalPrice` и `actions` для `addItem`, `removeItem`.
-<br>
+
 * **`App.vue`**: теперь очень "тонкий", использует `cartStore` только для счетчика в шапке.
-<br>
+
 * **`HomePage.vue`**: использует `productStore` для получения списка книг и `cartStore` для вызова действия `addItem`.
-<br>
+
 * **`CartPage.vue`**: использует `cartStore` для получения `detailedItems`, `count` и `totalPrice` для отображения содержимого корзины.
 
 <br>
